@@ -46,7 +46,7 @@ header hr {
 
 
 .profile_pic{
-
+	transform: scale(0.5);
 }
 .linkedin1{
 
