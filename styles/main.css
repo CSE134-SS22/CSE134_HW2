@@ -1,0 +1,53 @@
+header hr {
+	/* width: 40%; */
+}
+
+.flex-parent-element {
+	display: flex;
+	width: 20%;
+}
+  
+.flex-child-element {
+	flex: 1;
+	/* border: 1px solid blueviolet; */
+	/* margin: 0 px; */
+}
+
+/* .flex-image-element {
+	flex: 1;
+	border: 1px solid blueviolet;
+	margin: 0 px;
+} */
+
+#idLinkedInIcon{background-color:rgb(0, 102, 170);border-radius:6px;color:white;cursor:pointer;display:inline-block;font:bold 25px Arial, Helvetica, sans-serif;height:30px;margin-top:1px;text-align:center;width:30px;}
+#idLinkedInIcon:hover{background-color:#06d;}
+
+.container {
+	inline-size: 400px;
+	block-size: 13em;
+	border: 5px solid rgb(111,41,97);
+	border-radius: .5em;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 100px 100px 100px;
+	align-items: end;
+	align-content: end;
+	margin: 1em;
+  }
+
+/* .horizontal {
+	writing-mode: horizontal-tb;
+  }
+  
+.vertical {
+	writing-mode: vertical-rl;
+}
+   */
+
+
+.profile_pic{
+
+}
+.linkedin1{
+
+}
