@@ -1,4 +1,22 @@
 h3.Spring_in_my_step {
 	color:green;
-	font-style:italic;
+}
+
+/* <i>'s default value is itlaic */
+i.normal {
+	font-style:normal;
+}
+
+aside {
+    width: 40%;
+    padding-left: 1rem;
+    margin-left: 11rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #b68e14;
+    font-style: italic;
+    color: #b68e14;
+}
+
+.brownCat{
+	transform: scale(0.5);
 }
