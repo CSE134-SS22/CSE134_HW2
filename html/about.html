@@ -7,6 +7,16 @@
 	<title>About me</title>
 	<link href="../styles/about.css" rel="stylesheet" />
 </head>
+
+<script type="text/javascript">
+	function formProcess () {
+		var capture = document.forms["input"]["name"].value + '<br>';
+		capture += document.forms["input"]["email"].value + '<br>';
+		document.getElementById("OutputDiv").innerHTML = capture;
+		alert("Hello");
+	}
+</script>
+
 <body>
 	<main>
 	<h1>About Yang Yue</h1>
@@ -68,10 +78,12 @@
 	src="https://www.openstreetmap.org/export/embed.html?bbox=118.39536666870119%2C36.40857332152869%2C118.62195968627931%2C36.54688017175944&amp;layer=mapnik" 
 	style="border: 1px solid black">
 	</iframe>
-	<br/><small>
+	<br/>
+	<small>
 		<a href="https://www.openstreetmap.org/#map=13/36.4778/118.5087">
 			View Larger Map
-	</a></small>
+		</a>
+	</small>
 	
 	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d140016.49058174738!2d122.2429990648867!3d37.04279201963055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x359baa3b6e3c7bef%3A0x4d0cde5f5bdc05a5!2sRongcheng%2C%20Weihai%2C%20Shandong%2C%20China!5e0!3m2!1sen!2sus!4v1658433621625!5m2!1sen!2sus" 
 	width="600" 
@@ -91,6 +103,26 @@
 		<!-- <source src="../videos/My_Cat_Video.ogg" type="video/ogg"> -->
 	  Your browser does not support the video tag.
 	</video>
+
+	<div id="outputDiv" style="width: 200px; height: 75px; border: 1px solid;"></div>
+
+	<!-- <form id="input" name="myForm" enctype="multipart/form-data" onsubmit="return false">
+		<p> Name: <input type="text" id="fname" name="fname" /> </p>
+		<p> Email: <input type="text" id="email" name="email" /> </p>
+		<input type="submit" value="Submit">
+	</form> -->
+
+	<form id="input" name="myForm" enctype="multipart/form-data" onsubmit="return false">
+		<fieldset>
+		Name:<input type="text" id="OutputDiv" name="name"/><br/>  
+		Email:<input type="text" id="OutputDiv" name="email"/><br/>  
+		<input type="button" value="commentForm" onclick="formProcess()"/>  
+		</fieldset>
+	</form> 
+
+
+
+
 	
 
 </body>
