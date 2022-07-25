@@ -42,7 +42,6 @@
 }
    */
 
-
-.profile_pic{
-	transform: scale(0.5);
+.profile_pic {
+	width: 10%;
 }

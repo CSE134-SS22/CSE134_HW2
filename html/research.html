@@ -4,19 +4,21 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>About me</title>
+	<title>Research</title>
 	<link href="../styles/research.css" rel="stylesheet" />
 </head>
 <body>
 	<main>
 
+	<template>
 	<h1>Research</h1>
+	</template>
 
 	<h3> Plan to join Hyperdimensional Computing group, <br> Seelab (System Energy Efficiency Lab), UC San Diego</h3>
 	<details>
 		<summary>What's Hyperdimensional Computing?</summary>
 		<p>
-			In a word, transforming inputs, which are low dimension vectors, into <b>high dimension vectors</b> <br>
+			In a word, it is about transforming inputs, which are low dimension vectors, into <b>high dimension vectors</b> <br>
 			as output to perform classification. That works like our neural system and saves energy. That can be <br>
 			key to smart IoT (Internet of things), which operates on machine learning.
 			
@@ -29,6 +31,22 @@
 	<p><a href="https://www.youtube.com/watch?v=jGwO_UgTS7I&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU">Stanford CS229</a></p>
 
 	</main>
+
+	<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
+		Your browser does not support the HTML canvas tag.
+	</canvas>
+
+	<form>
+		<label for="favorite_research">Which reserach mentioned above are you mostly interested in?</label>
+		<input list="favorite_research" name="favorite_research" id="favorite_research">
+		<datalist id="favorite_research">
+		  <option value="Hyperdimensional Computing">
+		  <option value="Computer Vision - Segmentation">
+		  <option value="Computer Vision - Deep learning">
+		</datalist>
+		<input type="submit">
+	</form>
+	  
 	
 </body>
 </html>
