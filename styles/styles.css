@@ -1,0 +1,45 @@
+:root {
+    --div-background-color: blue;
+    --text-color: black;
+    /* --background-color: pink; */
+    /* transition: all 10s; */
+
+    --background-color: rgb(255,192,203);
+
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.child {
+    background-color: var(--div-background-color);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--div-background-color);
+
+}
+
+/* #dark-theme-btn {
+    transition-property: --background-color;
+    transition: --background-color 20s ease;
+    -o-transition-property: var(--text-color);
+    -o-transition-duration: 20s;
+} */
+
+/* div {
+    /* width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+

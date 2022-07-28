@@ -6,21 +6,37 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<title>Yang Yue</title>
+
+	<!-- Most recent one will be used -->
+	<link href="styles/styles.css" rel="stylesheet" />
 	<link href="styles/main.css" rel="stylesheet" />
 
+	<script defer src="scripts/script.js"></script>
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+	</style>
 </head>
 
 <body>
 
 
 	<header>
-		<h1>Yang Yue's Website</h1>
+		<h1 class="index_h1">Yang Yue's Website</h1>
 
-		<button type="button" onclick="alert('Thank you!')">Like<span>&#128077;</span></button>
-		
-		<section id="user-info-component">
+		<div class = "container">
+			<nav class = "nav_top">
+				<ul>				
+					<li><a href="./html/about.html">About</a> </li>
+					<li><a href="./html/coursework.html">Coursework</a></li>
+					<li><a href="./html/projects.html">Projects</a></li>
+					<li><a href="./html/research.html">Research</a></li>
+				</ul>
 
-		</section>
+			</nav>
+		</div>
+
+
 
 	</header>
 
@@ -34,13 +50,6 @@
 			<div class="flex-child-element Research">Research</div>
 		</div> -->
 
-
-		<nav>
-			<a href="./html/about.html">About</a> |
-			<a href="./html/coursework.html">Coursework</a> |
-			<a href="./html/projects.html">Projects</a> |
-			<a href="./html/research.html">Research</a>
-		</nav>
 
 
 
@@ -107,6 +116,15 @@
 		<p><a href="yayue@ucsd.edu">yayue@ucsd.edu</a></p>
 	</footer>
 
+	<button type="button" onclick="alert('Thank you!')">Like<span>&#128077;</span></button>
+		
+	<section id="user-info-component">
+
+	</section>
+
+	<br>
+	<button id="dark-theme-btn">Dark Theme</button>
+	<button id="light-theme-btn">Light Theme</button>
 </body>
 
 

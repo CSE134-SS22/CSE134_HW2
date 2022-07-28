@@ -1,5 +1,6 @@
 h3.Spring_in_my_step {
 	color:green;
+    font-size: 3vw;
 }
 
 /* <i>'s default value is itlaic */
@@ -8,16 +9,42 @@ i.normal {
 }
 
 aside {
-    width: 40%;
+    color: #b68e14;
     padding-left: 1rem;
     margin-left: 11rem;
+    width: 40%;
     float: right;
     box-shadow: inset 5px 0 5px -5px #b68e14;
     font-style: italic;
-    color: #b68e14;
+
 }
 
 .brownCat{
 	/* transform: scale(0.5); */
+    left: 30 vw;
 }
 
+.my_poem {
+    /* font-family: 'Playfair Display', serif; */
+    font-family: "Times New Roman", Times, serif;
+    width: 500px;
+    height: 500px;
+ 
+    /* background-color: red; */
+    background-image: url('../images/single_star.jpg');
+    animation-name: background_star;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+/* The animation code */
+@keyframes bgColor_red_yellow {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+@keyframes background_star {
+    from {background-image: url('../images/single_star.jpg')}
+    to {background-image: url('../images/starry_night.jpg')}
+}
