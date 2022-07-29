@@ -48,3 +48,22 @@ aside {
     from {background-image: url('../images/single_star.jpg')}
     to {background-image: url('../images/starry_night.jpg')}
 }
+
+
+
+
+
+.pentagon1:hover{
+    /* transform:scale(2,2); */
+    fill: blue;
+
+} 
+
+
+img:hover {
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}

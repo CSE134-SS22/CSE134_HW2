@@ -23,23 +23,5 @@ header {
 
 }
 
-/* #dark-theme-btn {
-    transition-property: --background-color;
-    transition: --background-color 20s ease;
-    -o-transition-property: var(--text-color);
-    -o-transition-duration: 20s;
-} */
 
-/* div {
-    /* width: 100px;
-    height: 100px;
-    background-color: red;
-    animation-name: example;
-    animation-duration: 4s;
-  }
-  
-@keyframes example {
-    from {background-color: red;}
-    to {background-color: yellow;}
-} */
 
