@@ -60,10 +60,55 @@ aside {
 } 
 
 
-img:hover {
+.flex-container > img:hover {
     transform:scale(1.5);
     -ms-transform:scale(1.5); /* IE 9 */
     -moz-transform:scale(1.5); /* Firefox */
     -webkit-transform:scale(1.5); /* Safari and Chrome */
     -o-transform:scale(1.5); /* Opera */
 }
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  
+/* .flex-container > img {
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+} */
+
+
+/* .flex-container > .Yang_2019_June {
+    width: 300px;
+    height: 300px;
+} */
+
+.Yang_2019_May {
+    /* width: 300px;
+    height: 300px; */
+    width:53.3%;
+    height: 53.3%;
+}
+
+.Yang_2020_June {
+    /* width: 300px;
+    height: 300px; */
+    width: 30%;
+    height: 30%;
+}
+
+.Yang_2021_Jul {
+    /* width: 300px;
+    height: 300px; */
+    width: 20%;
+    height: 20%;
+}
+
